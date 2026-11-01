@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Appointment-Service" target="21" />
+      <module name="Appointment-Service.main" target="21" />
+      <module name="Appointment-Service.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Appointment" options="-parameters" />
+      <module name="Appointment-Service" options="-parameters" />
+      <module name="Appointment-Service.main" options="-parameters" />
+      <module name="Appointment-Service.test" options="-parameters" />
+      <module name="Appointment.main" options="-parameters" />
+      <module name="Appointment.test" options="-parameters" />
+      <module name="Doctor-Service" options="-parameters" />
+      <module name="Doctor-Service.main" options="-parameters" />
+      <module name="Doctor-Service.test" options="-parameters" />
+    </option>
+  </component>
+</project>
